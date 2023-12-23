@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+body{
+    background-color:#000814;
+    color: #ffd60a;
+}
+h1{
+    height: 5rem;
+    font-size: 3rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    height: 55vmin;
+    justify-content: center;
+     border-radius: 50%;
+}
+.choice:hover{
+   
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:#003566 ;
+}
+.choice{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vmin;
+    width:  40vmin;
+   
+    border-radius: 50%;
+}
+ img{
+    border-radius: 50%;
+    height: 35vmin;
+    width:  35vmin;
+    object-fit: contain;
+}
+.score{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.user{
+    margin-right: 1rem;
+    font-size:1.5rem;
+}
+.computer{
+    margin-right: 1rem;
+    font-size:1.5rem;
+}
+.message-container{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+}
+#msg{
+    width: 25rem;
+    height: 3rem;
+    align-items: center;
+    display:flex ;
+    justify-content:center ;
+    background-color: #000814;
+    border-radius: 1rem;
+}
+.drawGameButton button{
+    
+    margin-top: 2rem;
+    background-color: #001d3d;
+    height: 8vmin;
+    width: 22vmin;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: #ffd60a;
+    border: none;
+}
+.drawGameButton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
+.changeModeButton{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffd60a;
+    color: #000814;
+}
+.modeChange{
+    text-align: center;
+    height: 10vmin;
+}
